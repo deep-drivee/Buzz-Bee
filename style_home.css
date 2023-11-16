@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  rgb(94, 94, 66);
+}
+.header ul{
+    position:relative;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    width:auto;
+    background-color: hsl(0, 1%, 20%);
+    color: white;
+    display: flex;
+    top: 0;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.logo img{
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 20px;
+    height: 60%;
+    border: 10px;
+    border-color: aqua;
+}
+
+.brand{
+    margin-right: 80px;
+    font-size: 30px;
+    text-shadow: 5px 5px 2px black;
+}
+
+#home,#trending,#album,#search{
+    font-size:20px;
+}
+#search{
+    font-size:20px;
+    margin-left: 100px;
+}
+.option{
+    margin-right: 50px;
+}
+li input{
+    height: 30px;
+    border-radius: 6px;
+    width: 300px ;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+div.tagline img{
+    width: 450px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 8px solid hsl(0, 0%, 40%);
+    border-radius: 20px;
+}
+main aside{
+    float: right;
+}
+div.day_song{
+    background-color: rgb(244, 181, 62);
+    height: 150px;
+    width: 500px;
+    margin-top: 40px;
+    margin-right: 100px;
+    border: 8px solid hsl(0, 0%, 40%);
+    border-radius: 20px;
+}
+.day_song h1{
+    text-align: center;
+    word-spacing: 8px;
+    font-family:"Georgia";
+    font-weight: bolder;
+    font-size: 28px;
+    padding: 8px;
+    text-shadow: 2px 5px 3px rgb(44, 44, 44);
+}
+.day_song_title{
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+}
+.day_song img{
+    width: 75px;
+    margin-left: 20px;
+    margin-right: 60px;
+    border-radius: 10px;
+}
+#duration{
+    margin-left: 140px;     
+}
+#day_song_icon{
+    visibility: hidden;
+    font-size: 40px;
+    margin-left: -110px;
+    margin-right: 70px;
+    color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+.day_song_title:hover{
+    background-color: rgb(241, 200, 124);
+    border-radius: 10px;
+}
+.day_song_title:hover #day_song_icon{
+    visibility: visible;
+}
